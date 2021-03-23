@@ -234,3 +234,133 @@ section {
   .col-40{
       width: 40%;
   }
+
+  .col-6{
+    width: 35vw;
+  }
+  .form-control {
+    border: 1px solid #E4E4E4;
+    padding: 1rem;
+    border-radius: .4rem;
+    margin: 20px;
+    font-family:inherit;
+    font-size: inherit;
+  }
+
+  textarea {
+    width: 75vw;
+  }
+
+  form {
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    margin: 10rem;
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+  .form-group {
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;    
+ }
+
+ .form-button{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ .btn{
+  padding: 1.5rem 3rem;
+   color: #FFF;
+   background-color: #250804;
+   border: none;
+   text-align: center;
+   border-radius: .5rem;
+ }
+
+ .mason{
+  background-color: #D2EDF9;
+}
+.mason-1{
+  height: 301px;
+  width: 290px;
+}
+.grid-12{
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+.mason-12{
+  height: 301px;
+}
+.full{
+  grid-column-start: 1;
+  grid-column-end:   4;
+  height: 199px;
+}
+.grid-13{
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+.side{
+  height: 487px !important;
+  grid-row-start: 1;
+  grid-row-end:   4;
+}
+.mason-13{
+  height: 232px;
+}
+
+#gallery {
+  background-color: #250804;
+}
+
+.mason-img{
+  height: inherit;
+  width: 100%;
+}
+
+h2 {
+  font-size: 3.8rem;
+  color: #250804;
+  font-family: inherit;
+
+}
+.text-white{
+  color: #FFF;
+}
+
+.card{
+  width: 23vw;
+  margin: 2rem;
+ 
+
+}
+
+.card-header {
+  background-color: salmon;
+  color: #FFF;
+  padding: 2rem;
+}
+
+.card-body {
+  background-color: #FFF;
+  padding: 2rem;
+
+}
+
+.card-body ul li {
+  list-style: none;
+}
+
+#pricelist {
+  background-color: #250804;
+
+}
+
+.card-row {
+  margin-top: 5rem;
+  display: flex;
+}
