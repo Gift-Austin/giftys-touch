@@ -18,8 +18,16 @@ body{
     height: 100vh;
 }
 
+.logo {
+  border-radius: 50%;
+    margin-top: 274px;
+    width: 4.5em;
+    height: 4.5em;
+    transform: translate(-528px, -136px);
+}
+
 .navbar {
-    height: 50px;
+    height: 68px;
     width: 100%;
     background: rgba(0, 0, 0, 0.4);
     display: flex;
@@ -81,9 +89,9 @@ section {
 
 .container{
     background-color:#FFFFFF ;
-    width: 95vw;
+    width: 81vw;
     height: 100vh;
-    padding: 0 2rem;
+    padding: 0 12rem;
 }
 
 .containerbanner{
@@ -112,6 +120,7 @@ section {
     display: flex;
     gap: 10rem;
     align-items: center; 
+    
   }
   
     .teams-title {
@@ -303,6 +312,8 @@ section {
   display: grid;
   gap: 1rem;
   grid-template-columns: 2fr 1fr 1fr;
+  padding: 0 12rem;
+  margin-top: 5rem;
 }
 .side{
   height: 487px !important;
@@ -326,6 +337,7 @@ h2 {
   font-size: 3.8rem;
   color: #250804;
   font-family: inherit;
+  padding: 0 14rem;
 
 }
 .text-white{
@@ -363,4 +375,5 @@ h2 {
 .card-row {
   margin-top: 5rem;
   display: flex;
+  padding: 0 12rem;
 }
