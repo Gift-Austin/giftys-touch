@@ -5,6 +5,7 @@
 
 html{
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -33,6 +34,7 @@ body{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    position: fixed;
 }
 .navbar ul {
     display: flex;
@@ -226,7 +228,13 @@ section {
     list-style: none;
     font-size: 1.4rem;
     opacity: 0.6;
-    padding: 0.5rem 0; 
+    padding: 0.5rem 0;
+    
+  }
+  
+  .footer-item a {
+    text-decoration: none;
+    color: #FFF; 
   }
   
   .footer-bottom_text {
@@ -281,11 +289,13 @@ section {
  }
  .btn{
   padding: 1.5rem 3rem;
-   color: #FFF;
-   background-color: #250804;
-   border: none;
+   color: #250804;
+   background-color: #FFF;
+   border: 1px solid #250804;
    text-align: center;
    border-radius: .5rem;
+   font-weight: 600;
+   cursor: pointer;
  }
 
  .mason{
@@ -357,6 +367,11 @@ h2 {
   padding: 2rem;
 }
 
+.card-header h5 {
+  font-size: 2rem;
+
+}
+
 .card-body {
   background-color: #FFF;
   padding: 2rem;
@@ -377,3 +392,23 @@ h2 {
   display: flex;
   padding: 0 12rem;
 }
+
+.form-group input:focus {
+  outline: none !important;
+  border: 1px solid #008000;
+  
+}
+
+.form-group textarea:focus {
+  outline: none !important;
+  border: 1px solid #008000;
+  
+}
+
+.btn:hover {
+  outline: none !important;
+  background-color: #250804;
+  border: 1px solid #FFF;
+  color: #FFF;
+}
+
