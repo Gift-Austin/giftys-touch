@@ -22,10 +22,9 @@ body{
 
 .logo {
   border-radius: 50%;
-    margin-top: 274px;
+    margin-left: 10rem;
     width: 4.5em;
     height: 4.5em;
-    transform: translate(-436px, -136px);
 }
 
 .navbar {
@@ -33,7 +32,7 @@ body{
     width: 100%;
     background: rgba(0, 0, 0, 0.4);
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     position: fixed;
     z-index: 100;
@@ -93,8 +92,7 @@ section {
 
 .container{
     background-color:#FFFFFF ;
-    width: 81vw;
-    height: 100vh;
+    width: 98vw;
     padding: 0 12rem;
 }
 
@@ -255,7 +253,7 @@ section {
   }
 
   .col-6{
-    width: 35vw;
+    width: 44%;
   }
   .form-control {
     border: 1px solid #E4E4E4;
@@ -382,6 +380,7 @@ h2 {
 
 .card-body ul li {
   list-style: none;
+  display: flex;
 }
 
 #pricelist {
@@ -412,5 +411,9 @@ h2 {
   background-color: #250804;
   border: 1px solid #FFF;
   color: #FFF;
+}
+
+.dotted-item {
+  flex: 1;
 }
 
