@@ -99,7 +99,7 @@ section {
     display: flex;
     margin: 0 auto;
     width: 90%;
-    padding-top: 10rem;
+    padding-top: 10rem2222;
 }
 
 .parent {
@@ -392,6 +392,10 @@ h2 {
 .card-body ul li {
   list-style: none;
   display: flex;
+}
+
+.card-body ul li p {
+  font-size: 1.5rem;
 }
 
 #pricelist {
